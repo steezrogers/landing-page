@@ -9,6 +9,16 @@ body {
     font-family: "Roboto";
 }
 
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1% 5%;
+    border-radius: 10px;
+    border: solid 3px white;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -42,6 +52,7 @@ body {
 .content {
     display: flex;
     flex: auto;
+    align-items: center;
     margin: 10% 0;
     gap: 5%;
 }
@@ -54,6 +65,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
     width: 50%;
     background-color: #e5e7eb;
 }
@@ -153,15 +165,14 @@ body {
 .calltext h2 {
     font-size: 18px;
     font-weight: 100;
-    color: #e5e7eb;
+    color: #f9faf8;
 }
 
-button {
-    background-color: #3882f6;
-    color: #f9faf8;
+.footer {
+    background-color: #1F2937;
     font-size: 18px;
-    font-weight: bold;
-    padding: 1% 5%;
-    border-radius: 10px;
-    border: solid 3px white;
+    font-weight: 100;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 2% 0;
 }
