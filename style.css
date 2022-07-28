@@ -58,7 +58,7 @@ body {
     background-color: #e5e7eb;
 }
 
-.heroimage > h2 {
+.heroimage h2 {
     color: #1F2937;
     font-size: 18px;
 }
@@ -73,6 +73,8 @@ body {
     font-size: 18px;
     font-weight: 100;
     color: #e5e7eb;
+    padding: 3% 0;
+    margin-top: -1%;
 }
 
 .info {
@@ -89,17 +91,19 @@ body {
 
 .imagerow {
     display: flex;
-    justify-content: center;
-    gap: 5%;
+    justify-content: space-evenly;
 }
 
 .image-text {
-    width: 200px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .infoimage {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border: solid 5px #3882f6;
     border-radius: 10px;
 }
@@ -107,8 +111,8 @@ body {
 .infotext {
     font-size: 18px;
     color: #1f2937;
-    text-align: center;
     padding-top: 3%;
+    text-align: center;
 }
 
 .quote {
@@ -129,13 +133,35 @@ body {
     color: #1f2937;
     text-align: right;
 }
+
+.calltoaction {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 5% 15%;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calltext h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.calltext h2 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
     padding: 1% 5%;
-    margin-top: 3%;
     border-radius: 10px;
-    border: none;
+    border: solid 3px white;
 }
