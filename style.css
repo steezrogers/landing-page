@@ -42,7 +42,7 @@ body {
 .content {
     display: flex;
     flex: auto;
-    margin: 10% 0 15% 0;
+    margin: 10% 0;
     gap: 5%;
 }
 
@@ -50,7 +50,7 @@ body {
     width: 50%;
 }
 
-.image {
+.heroimage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +68,42 @@ body {
     font-size: 18px;
     font-weight: 100;
     color: #e5e7eb;
+}
+
+.info {
+    padding: 0 10% 10% 10%;
+}
+
+.info h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 3% 0;
+}
+
+.imagerow {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.image-text {
+    width: 200px;
+}
+
+.infoimage {
+    width: 200px;
+    height: 200px;
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+}
+
+.infotext {
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 3%;
 }
 
 button {
