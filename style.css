@@ -55,7 +55,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: gray;
+    background-color: #e5e7eb;
+}
+
+.heroimage > h2 {
+    color: #1F2937;
+    font-size: 18px;
 }
 
 .hero h1 {
@@ -64,14 +69,14 @@ body {
     color: #f9faf8;
 }
 
-.content h2 {
+.hero h2 {
     font-size: 18px;
     font-weight: 100;
     color: #e5e7eb;
 }
 
 .info {
-    padding: 0 10% 10% 10%;
+    padding: 0 10% 5% 10%;
 }
 
 .info h1 {
@@ -84,7 +89,7 @@ body {
 
 .imagerow {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 5%;
 }
 
@@ -106,6 +111,24 @@ body {
     padding-top: 3%;
 }
 
+.quote {
+    padding: 5% 20%;
+    background-color: #e5e7eb;
+}
+
+.quote h1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+}
 button {
     background-color: #3882f6;
     color: #f9faf8;
